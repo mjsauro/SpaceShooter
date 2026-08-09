@@ -52,6 +52,10 @@ Built with jQuery 3.3.1 and Bootstrap 3.3.7 (CDN) for the game-over modal.
 ## About
 
 A 2018 project from when I was learning the Canvas API, kept as-is rather than
-modernized. It's linked from the
+modernized — apart from one typo fix in `js/movement.js`, where the per-frame
+vertical reset was assigned to `myGameArea` instead of `myGamePiece`, letting the
+ship drift upward forever if a keyup was ever missed. The original state is
+tagged [`v1-original-site`](https://github.com/mjsauro/SpaceShooter/tree/v1-original-site).
+It's linked from the
 [archived version of my original portfolio](https://mjsauro.github.io/archive/);
 my current portfolio is [here](https://d12uot6ivwmo30.cloudfront.net/).

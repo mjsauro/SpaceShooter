@@ -51,6 +51,38 @@
   </div>  
   <!--this button is hidden and solely used to trigger the modal upon a crash in the back endds-->
   <button style="display:none;" class="btn btn-default" type=button id="modal-trigger" data-toggle="modal" data-target="#myModal">Reset</button>  
+
+    <!-- Archive notice. Added when the project was republished; not part of the original build. -->
+    <style>
+        /* Keep the fixed banner from covering the bottom of the page content. */
+        body {
+            padding-bottom: 5.5rem;
+        }
+
+        #archive-banner {
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 2000;
+            padding: .6rem 1rem;
+            background: #1b1b1b;
+            border-top: 1px solid #3a3a3a;
+            color: #d8d8d8;
+            font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            text-align: center;
+        }
+
+        #archive-banner a {
+            color: #6ea8ff;
+            font-weight: 600;
+        }
+    </style>
+    <div id="archive-banner">
+        Archived &mdash; this project is no longer maintained, and is kept as a record of earlier work. It has no third-party dependencies, so the game itself still plays as built.
+        <a href="https://d12uot6ivwmo30.cloudfront.net/">View my current portfolio &rarr;</a>
+    </div>
+
 </body>
 
 </html>
